@@ -224,7 +224,7 @@
     function status(message, kind = '') { field('sync-status').textContent = message; field('sync-status').dataset.kind = kind; button.title = message; button.dataset.state = kind; button.disabled = kind === 'busy'; button.textContent = kind === 'busy' ? '正在同步…' : kind === 'ok' ? '已同步 · 再同步' : kind === 'error' ? '同步失败 · 重试' : '同步到我的仓库'; preferences.title = message; }
     function persist() {
       try { localStorage.setItem(STORE, JSON.stringify(stable({ doc, snapshot }))); }
-      catch { storageError = true; status('同步元数据未能保存；请允许浏览器存储并导出进度备份', 'error'); }
+      catch { storageError = true; status('同步信息未能保存，请允许浏览器存储后重试', 'error'); }
     }
     function accept(merged) {
       doc = merged;
@@ -290,7 +290,7 @@
       catch { status('其他标签页进度格式异常，当前进度已保留', 'error'); }
     });
     persist();
-    status(storageError ? '浏览器存储受限，请导出进度备份后再同步' : token ? '已恢复此设备连接' : '尚未连接；进度仍保存在本机', storageError ? 'error' : '');
+    status(storageError ? '浏览器存储受限，请允许网站存储后再同步' : token ? '已恢复此设备连接' : '尚未连接；进度仍保存在本机', storageError ? 'error' : '');
     if (token) void sync();
     window.zhixingGitHubSync = { sync, openSettings: show };
   }

@@ -108,16 +108,9 @@ try {
   assert.deepEqual(snapshot.wrong, ['subjective']);
   assert.deepEqual(snapshot.saved, ['subjective']);
   assert.equal(await page.getByRole('button', { name: '我做错了', exact: true }).count(), 0);
-  const downloadReady = page.waitForEvent('download');
-  await page.getByRole('button', { name: '导出进度', exact: true }).click();
-  const download = await downloadReady;
-  const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
-  assert.equal(exported.version, 1);
-  assert.deepEqual(exported.session.answers.subjective, { revealed: true, correct: false });
-  assert.equal(exported.session.answers.multiple, 'ACE');
-  await page.locator('#import-file').setInputFiles({ name: 'round-trip.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(exported)) });
-  assert.deepEqual((await page.evaluate(() => window.zhixingProgress.exportState())).records, exported.records);
-  console.log('PASS: subjective rich content hidden until reveal, no completion until self-assessment, refresh and wrong/favorite persistence; export/import round-trip');
+  assert.equal(await page.getByRole('button', { name: '导出进度', exact: true }).count(), 0);
+  assert.equal(await page.getByRole('button', { name: '导入进度', exact: true }).count(), 0);
+  console.log('PASS: subjective reveal, assessment, refresh, wrong/favorite persistence; only GitHub sync controls remain');
 
   await page.locator('#question-palette button').nth(4).click();
   assert.equal(await page.getByText('仅供查阅的答案资料', { exact: true }).count(), 0);
@@ -163,15 +156,13 @@ try {
     window.testUnsubscribe = window.zhixingProgress.subscribe((value, metadata) => window.testEvents.push({ value, metadata }));
   });
   const malformedLegacy = { ...legacy, records: { ...legacyRecords, multiple: { attempts: -1, correct: 999 } }, session: { ids: [original[0].id, original[0].id, 'deleted'], answers: { [original[0].id]: original[0].answer }, index: -50 } };
-  await page.locator('#import-file').setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(malformedLegacy)) });
-  await page.waitForFunction(() => window.testEvents?.some(e => e.metadata.source === 'import'));
+  await page.evaluate(value => window.zhixingProgress.applyState(value, { notify: true, source: 'test' }), malformedLegacy);
+  await page.waitForFunction(() => window.testEvents?.some(e => e.metadata.source === 'test'));
   snapshot = await page.evaluate(() => window.zhixingProgress.exportState());
   assert.deepEqual(snapshot.records, legacyRecords);
   assert.deepEqual(snapshot.session.ids, [original[0].id]);
   assert.equal(snapshot.session.index, 0);
-  await page.locator('#import-file').setInputFiles({ name: 'bad.json', mimeType: 'application/json', buffer: Buffer.from('{"version":1,"records":[],"wrong":[],"saved":[]}') });
-  assert.deepEqual((await page.evaluate(() => window.zhixingProgress.exportState())).records, legacyRecords);
-  console.log('PASS: backup import sanitizes invalid entries, preserves legacy records, rejects invalid root and notifies sync adapter');
+  console.log('PASS: sync adapter sanitizes invalid entries, preserves legacy records and notifies subscribers');
 
   await page.evaluate(() => localStorage.setItem('zhixing-practice-v1', JSON.stringify({ records: [], wrong: 'bad', saved: {}, session: { ids: ['subjective'], answers: 'bad', index: {} } })));
   await page.reload();

@@ -102,7 +102,7 @@
   function saveState(source = 'local', notify = true) {
     try {
       localStorage.setItem(storageKey, JSON.stringify(exportState()));
-    } catch { toast('浏览器未能保存进度，请使用“导出进度”备份'); }
+    } catch { toast('浏览器未能保存进度，请检查存储权限并同步到仓库'); }
     if (notify) {
       for (const listener of progressListeners) {
         try { listener(exportState(), { source }); }
@@ -473,30 +473,6 @@
   $('start-random').onclick = () => startSession('random');
   $('prev-button').onclick = () => { state.session.index--; saveState(); render(); };
   $('next-button').onclick = () => { state.session.index++; saveState(); render(); };
-
-  $('export-button').onclick = () => {
-    const backup = exportState();
-    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `知行题库进度-${new Date().toISOString().slice(0, 10)}.json`;
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    toast('进度已导出');
-  };
-  $('import-button').onclick = () => $('import-file').click();
-  $('import-file').onchange = async event => {
-    const file = event.target.files[0];
-    if (!file) return;
-    try {
-      const imported = JSON.parse(await file.text());
-      if (!isObject(imported) || imported.version !== 1 || !isObject(imported.records) || !Array.isArray(imported.wrong) || !Array.isArray(imported.saved)) throw Error('invalid');
-      applyState(imported, { notify: true, source: 'import' });
-      toast('进度已导入');
-    } catch { toast('进度文件格式不正确'); }
-    event.target.value = '';
-  };
 
   document.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || ['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;

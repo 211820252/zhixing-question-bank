@@ -48,7 +48,7 @@
       <main class="main-content">
         <div class="page-title-row">
           <div><div class="eyebrow" id="scope-label">全部题库</div><h1>刷题练习</h1></div>
-          <div class="data-actions"><button id="export-button" type="button">导出进度</button><button id="import-button" type="button">导入进度</button><input id="import-file" type="file" accept="application/json,.json" hidden></div>
+          <div class="data-actions"></div>
         </div>
 
         <section class="practice-controls" aria-label="练习设置">
@@ -203,7 +203,7 @@ window.QUESTION_BANK = (window.QUESTION_BANK || []).concat([{"id":"zj-2017-04-q0
   function saveState(source = 'local', notify = true) {
     try {
       localStorage.setItem(storageKey, JSON.stringify(exportState()));
-    } catch { toast('浏览器未能保存进度，请使用“导出进度”备份'); }
+    } catch { toast('浏览器未能保存进度，请检查存储权限并同步到仓库'); }
     if (notify) {
       for (const listener of progressListeners) {
         try { listener(exportState(), { source }); }
@@ -575,30 +575,6 @@ window.QUESTION_BANK = (window.QUESTION_BANK || []).concat([{"id":"zj-2017-04-q0
   $('prev-button').onclick = () => { state.session.index--; saveState(); render(); };
   $('next-button').onclick = () => { state.session.index++; saveState(); render(); };
 
-  $('export-button').onclick = () => {
-    const backup = exportState();
-    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `知行题库进度-${new Date().toISOString().slice(0, 10)}.json`;
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    toast('进度已导出');
-  };
-  $('import-button').onclick = () => $('import-file').click();
-  $('import-file').onchange = async event => {
-    const file = event.target.files[0];
-    if (!file) return;
-    try {
-      const imported = JSON.parse(await file.text());
-      if (!isObject(imported) || imported.version !== 1 || !isObject(imported.records) || !Array.isArray(imported.wrong) || !Array.isArray(imported.saved)) throw Error('invalid');
-      applyState(imported, { notify: true, source: 'import' });
-      toast('进度已导入');
-    } catch { toast('进度文件格式不正确'); }
-    event.target.value = '';
-  };
-
   document.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || ['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
     if (/^[1-9]$/.test(event.key)) answer(letters[Number(event.key) - 1]);
@@ -847,7 +823,7 @@ window.QUESTION_BANK = (window.QUESTION_BANK || []).concat([{"id":"zj-2017-04-q0
     function status(message, kind = '') { field('sync-status').textContent = message; field('sync-status').dataset.kind = kind; button.title = message; button.dataset.state = kind; button.disabled = kind === 'busy'; button.textContent = kind === 'busy' ? '正在同步…' : kind === 'ok' ? '已同步 · 再同步' : kind === 'error' ? '同步失败 · 重试' : '同步到我的仓库'; preferences.title = message; }
     function persist() {
       try { localStorage.setItem(STORE, JSON.stringify(stable({ doc, snapshot }))); }
-      catch { storageError = true; status('同步元数据未能保存；请允许浏览器存储并导出进度备份', 'error'); }
+      catch { storageError = true; status('同步信息未能保存，请允许浏览器存储后重试', 'error'); }
     }
     function accept(merged) {
       doc = merged;
@@ -913,7 +889,7 @@ window.QUESTION_BANK = (window.QUESTION_BANK || []).concat([{"id":"zj-2017-04-q0
       catch { status('其他标签页进度格式异常，当前进度已保留', 'error'); }
     });
     persist();
-    status(storageError ? '浏览器存储受限，请导出进度备份后再同步' : token ? '已恢复此设备连接' : '尚未连接；进度仍保存在本机', storageError ? 'error' : '');
+    status(storageError ? '浏览器存储受限，请允许网站存储后再同步' : token ? '已恢复此设备连接' : '尚未连接；进度仍保存在本机', storageError ? 'error' : '');
     if (token) void sync();
     window.zhixingGitHubSync = { sync, openSettings: show };
   }
