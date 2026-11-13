@@ -24,7 +24,7 @@ const fixtures = [
 ];
 const server = createServer(async (request, response) => {
   const name = request.url === '/' ? 'index.html' : request.url.slice(1).split('?')[0];
-  if (!['index.html', 'app.js', 'styles.css', 'data.js', 'zhejiang-data.js', 'sync.js', 'sync.css'].includes(name)) { response.writeHead(404).end(); return; }
+  if (!['index.html', 'app.js', 'styles.css', 'data.js', 'zhejiang-data.js', 'encouragement.js', 'sync.js', 'sync.css'].includes(name)) { response.writeHead(404).end(); return; }
   try {
     response.setHeader('Content-Type', name.endsWith('.js') ? 'text/javascript' : name.endsWith('.css') ? 'text/css' : 'text/html');
     response.end(await readFile(path.join(root, name)));

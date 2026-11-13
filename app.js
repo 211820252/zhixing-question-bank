@@ -199,6 +199,7 @@
     if (!correct) state.wrong.add(id);
     saveState();
     render();
+    window.zhixingEncouragement?.record(correct);
   }
 
   function answer(letter) {
