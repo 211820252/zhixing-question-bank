@@ -1,0 +1,518 @@
+[
+  {
+    "number": 1,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      42,
+      550,
+      99
+    ],
+    "file": "assets/zhejiang/2018-04-q01-part1.jpg",
+    "sha256": "d7eddea1a851b07dae1efad575ebf07f9e37140de83358f6af6c2b8c624fb9dd"
+  },
+  {
+    "number": 2,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      98,
+      550,
+      154
+    ],
+    "file": "assets/zhejiang/2018-04-q02-part1.jpg",
+    "sha256": "e4a2bbf0e91550bebeaee601ed984c937f7f42aa4a8be915e75903a6b5718377"
+  },
+  {
+    "number": 3,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      153,
+      550,
+      229
+    ],
+    "file": "assets/zhejiang/2018-04-q03-part1.jpg",
+    "sha256": "e019d6366ab242a20a34fb5fe24d68960f9e8d94795ab42b11da8ef6e16f299e"
+  },
+  {
+    "number": 4,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      228,
+      550,
+      285
+    ],
+    "file": "assets/zhejiang/2018-04-q04-part1.jpg",
+    "sha256": "132484eed974327b4af42879acf66316a30bd4e2d7849fba8bef5719ec053035"
+  },
+  {
+    "number": 5,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      283,
+      550,
+      340
+    ],
+    "file": "assets/zhejiang/2018-04-q05-part1.jpg",
+    "sha256": "58e39cc8dc4cb5ff3e6a67d11f7d00148bb6305cc4a6037f74f952141c4db018"
+  },
+  {
+    "number": 6,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      339,
+      550,
+      433
+    ],
+    "file": "assets/zhejiang/2018-04-q06-part1.jpg",
+    "sha256": "7569ab2edb06ca5325e607611bacec1f85d21435f3725b931c226f9e14c1246b"
+  },
+  {
+    "number": 7,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      431,
+      550,
+      526
+    ],
+    "file": "assets/zhejiang/2018-04-q07-part1.jpg",
+    "sha256": "bb5754ecbf6e78a7f4fae8c90dcc06ba0c9aabcaacba31cfbf692f780f203c5b"
+  },
+  {
+    "number": 8,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      524,
+      550,
+      619
+    ],
+    "file": "assets/zhejiang/2018-04-q08-part1.jpg",
+    "sha256": "39dbd2a189ac0ebaa2079640b94c681f6f53cb3fabf0ee1486288d5b99929539"
+  },
+  {
+    "number": 9,
+    "part": 1,
+    "sourcePage": 1,
+    "sourceFile": "question-01.jpg",
+    "box": [
+      0,
+      617,
+      550,
+      755
+    ],
+    "file": "assets/zhejiang/2018-04-q09-part1.jpg",
+    "sha256": "a6961e1982d12e0e646cead04ccce779aded26f475f8ceb032c889f772e103b4"
+  },
+  {
+    "number": 10,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      100
+    ],
+    "file": "assets/zhejiang/2018-04-q10-part1.jpg",
+    "sha256": "de59ddd16098a1bcf9ecdc9fc81fd1c51d1bfda148a4335f553c7d55fdf4d41d"
+  },
+  {
+    "number": 11,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      98,
+      550,
+      194
+    ],
+    "file": "assets/zhejiang/2018-04-q11-part1.jpg",
+    "sha256": "35b4c1e53ab3287ee4e371dd84243bfe4308ca01854f67669f505ed67d964743"
+  },
+  {
+    "number": 12,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      191,
+      550,
+      438
+    ],
+    "file": "assets/zhejiang/2018-04-q12-part1.jpg",
+    "sha256": "c790eebdb62ca4d7022acc3d2eb536d2aae169541fdbdd399ffb3dd2bad809d2"
+  },
+  {
+    "number": 13,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      435,
+      550,
+      530
+    ],
+    "file": "assets/zhejiang/2018-04-q13-part1.jpg",
+    "sha256": "1cce7cd60e0e07e22373cba12cf4bce57cbbf711a7a42e215ab324ea4123240d"
+  },
+  {
+    "number": 14,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      527,
+      550,
+      622
+    ],
+    "file": "assets/zhejiang/2018-04-q14-part1.jpg",
+    "sha256": "646b012188ddc83cc555589482584ed14c658746e8c7094843f2ba44059698b6"
+  },
+  {
+    "number": 15,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      619,
+      550,
+      714
+    ],
+    "file": "assets/zhejiang/2018-04-q15-part1.jpg",
+    "sha256": "25637c97c02d4775006b68cb2576ee68343f6bce230bfb8f0c061be09fe09cf2"
+  },
+  {
+    "number": 16,
+    "part": 1,
+    "sourcePage": 2,
+    "sourceFile": "question-02.jpg",
+    "box": [
+      0,
+      711,
+      550,
+      804
+    ],
+    "file": "assets/zhejiang/2018-04-q16-part1.jpg",
+    "sha256": "ac78e7e466a8bc37d120fdbeecdccfcc022fdb58d50dc460c7515cb1c406a360"
+  },
+  {
+    "number": 17,
+    "part": 1,
+    "sourcePage": 3,
+    "sourceFile": "question-03.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      248
+    ],
+    "file": "assets/zhejiang/2018-04-q17-part1.jpg",
+    "sha256": "945188e37e5916edcd8ae8a1cf41077885a4140405ec50a12f836f06753c620d"
+  },
+  {
+    "number": 18,
+    "part": 1,
+    "sourcePage": 3,
+    "sourceFile": "question-03.jpg",
+    "box": [
+      0,
+      246,
+      550,
+      399
+    ],
+    "file": "assets/zhejiang/2018-04-q18-part1.jpg",
+    "sha256": "0b55c5bbc535ef919f23840ce8a2805af6380f0a5c189efc4745e773fad0b41e"
+  },
+  {
+    "number": 19,
+    "part": 1,
+    "sourcePage": 3,
+    "sourceFile": "question-03.jpg",
+    "box": [
+      0,
+      396,
+      550,
+      492
+    ],
+    "file": "assets/zhejiang/2018-04-q19-part1.jpg",
+    "sha256": "19ee0615ee7c759a17d08bd39dc63e9f59ae610e2b567bb91ecc0fdd65279ac0"
+  },
+  {
+    "number": 20,
+    "part": 1,
+    "sourcePage": 3,
+    "sourceFile": "question-03.jpg",
+    "box": [
+      0,
+      489,
+      550,
+      583
+    ],
+    "file": "assets/zhejiang/2018-04-q20-part1.jpg",
+    "sha256": "1a00e73c000b94f60fdf30aee851c9933ddc26fb3afbe0ed4cc919759c91d84b"
+  },
+  {
+    "number": 21,
+    "part": 1,
+    "sourcePage": 3,
+    "sourceFile": "question-03.jpg",
+    "box": [
+      0,
+      580,
+      550,
+      771
+    ],
+    "file": "assets/zhejiang/2018-04-q21-part1.jpg",
+    "sha256": "33d5440085936fff6401911c9675dd019db8e54389a750b9661f598e13630685"
+  },
+  {
+    "number": 22,
+    "part": 1,
+    "sourcePage": 4,
+    "sourceFile": "question-04.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      147
+    ],
+    "file": "assets/zhejiang/2018-04-q22-part1.jpg",
+    "sha256": "b4617938a4af6f6e7f3e9de19c7ef1aec268eb644c26ea14051b4e5e8fd931e1",
+    "excludedAdjacentTextMask": [
+      0,
+      130,
+      448,
+      147
+    ]
+  },
+  {
+    "number": 23,
+    "part": 1,
+    "sourcePage": 4,
+    "sourceFile": "question-04.jpg",
+    "box": [
+      0,
+      130,
+      550,
+      256
+    ],
+    "file": "assets/zhejiang/2018-04-q23-part1.jpg",
+    "sha256": "2d56bfd2d853fb157de77ef8cc0b4679f4631970f5644acf74a6cce8502d8a39"
+  },
+  {
+    "number": 24,
+    "part": 1,
+    "sourcePage": 4,
+    "sourceFile": "question-04.jpg",
+    "box": [
+      0,
+      252,
+      550,
+      375
+    ],
+    "file": "assets/zhejiang/2018-04-q24-part1.jpg",
+    "sha256": "0d50a0401151c6bd9d74eb1fe57a434d61290439eed83ea91d91ab936d7fe654",
+    "excludedAdjacentTextMask": [
+      0,
+      105,
+      454,
+      123
+    ]
+  },
+  {
+    "number": 25,
+    "part": 1,
+    "sourcePage": 4,
+    "sourceFile": "question-04.jpg",
+    "box": [
+      0,
+      357,
+      550,
+      587
+    ],
+    "file": "assets/zhejiang/2018-04-q25-part1.jpg",
+    "sha256": "84f6ec23eb8e39a71adb61a8545da7d0289cf5d3ec49e7c0fb2e69a334ec892b"
+  },
+  {
+    "number": 26,
+    "part": 1,
+    "sourcePage": 4,
+    "sourceFile": "question-04.jpg",
+    "box": [
+      0,
+      584,
+      550,
+      809
+    ],
+    "file": "assets/zhejiang/2018-04-q26-part1.jpg",
+    "sha256": "6ce24b51643bfdd6f3248ee5166d3a6f5c37e1f67674b1e039a019add7035a2a"
+  },
+  {
+    "number": 26,
+    "part": 2,
+    "sourcePage": 5,
+    "sourceFile": "question-05.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      81
+    ],
+    "file": "assets/zhejiang/2018-04-q26-part2.jpg",
+    "sha256": "7902096592c38af65c82207e8d665cb2ecb0449999225f5745ecd215d0db1051"
+  },
+  {
+    "number": 27,
+    "part": 1,
+    "sourcePage": 5,
+    "sourceFile": "question-05.jpg",
+    "box": [
+      0,
+      79,
+      550,
+      196
+    ],
+    "file": "assets/zhejiang/2018-04-q27-part1.jpg",
+    "sha256": "502cf6fda8bf4f9043212982853c00947d25a3fde9b9db58f48d19023ab23180"
+  },
+  {
+    "number": 28,
+    "part": 1,
+    "sourcePage": 5,
+    "sourceFile": "question-05.jpg",
+    "box": [
+      0,
+      193,
+      550,
+      537
+    ],
+    "file": "assets/zhejiang/2018-04-q28-part1.jpg",
+    "sha256": "3726c0c538d9c6c1cfffbe37cfc19188df1d91754c7323d37d9bf5240e6e29fb"
+  },
+  {
+    "number": 29,
+    "part": 1,
+    "sourcePage": 5,
+    "sourceFile": "question-05.jpg",
+    "box": [
+      0,
+      552,
+      550,
+      807
+    ],
+    "file": "assets/zhejiang/2018-04-q29-part1.jpg",
+    "sha256": "0cb404f12c68bcf8c952f8729a2fa11ce629401fa1b5f5874aa17b72702bc5fc"
+  },
+  {
+    "number": 29,
+    "part": 2,
+    "sourcePage": 6,
+    "sourceFile": "question-06.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      45
+    ],
+    "file": "assets/zhejiang/2018-04-q29-part2.jpg",
+    "sha256": "e46ffdbbc5f80c3f5c0217048273251ec21cb8bf36d79f14786de46e237a90a7"
+  },
+  {
+    "number": 30,
+    "part": 1,
+    "sourcePage": 6,
+    "sourceFile": "question-06.jpg",
+    "box": [
+      0,
+      43,
+      550,
+      374
+    ],
+    "file": "assets/zhejiang/2018-04-q30-part1.jpg",
+    "sha256": "3a535979c721f4ebce0c4b0f9b90ab80dc183055df5d99b90df15c9f5e14883c"
+  },
+  {
+    "number": 31,
+    "part": 1,
+    "sourcePage": 6,
+    "sourceFile": "question-06.jpg",
+    "box": [
+      0,
+      370,
+      550,
+      619
+    ],
+    "file": "assets/zhejiang/2018-04-q31-part1.jpg",
+    "sha256": "f8465e8bbe5b591b20730fcf45d4b91341aeaa4bd684a50737e2d787e408814f"
+  },
+  {
+    "number": 32,
+    "part": 1,
+    "sourcePage": 6,
+    "sourceFile": "question-06.jpg",
+    "box": [
+      0,
+      615,
+      550,
+      806
+    ],
+    "file": "assets/zhejiang/2018-04-q32-part1.jpg",
+    "sha256": "faf7abcc66390d10049e20bb146940542c76d5ed4ce14755e1099f7e8bdd2253"
+  },
+  {
+    "number": 32,
+    "part": 2,
+    "sourcePage": 7,
+    "sourceFile": "question-07.jpg",
+    "box": [
+      0,
+      0,
+      550,
+      344
+    ],
+    "file": "assets/zhejiang/2018-04-q32-part2.jpg",
+    "sha256": "ee9c48ea9b9b763c71ebcbb9e9ebf63c12ce3f26dd769cfc8ce4182cbeb16f7b"
+  },
+  {
+    "number": 33,
+    "part": 1,
+    "sourcePage": 7,
+    "sourceFile": "question-07.jpg",
+    "box": [
+      0,
+      341,
+      550,
+      604
+    ],
+    "file": "assets/zhejiang/2018-04-q33-part1.jpg",
+    "sha256": "96a73c823230fda61910cdea1ea1210a4bc0cde9cf5432cc8b30d0869e89207a"
+  }
+]

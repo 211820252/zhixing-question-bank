@@ -1,0 +1,396 @@
+{
+  "questionCount": 514,
+  "types": {
+    "single": 424,
+    "subjective": 90
+  },
+  "papers": [
+    {
+      "key": "zj-2017-04",
+      "filename": "2017年高考生物试卷（浙江）（4月）（解析卷）.doc",
+      "year": 2017,
+      "month": 4,
+      "questions": 33,
+      "types": {
+        "single": 28,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2017-11",
+      "filename": "2017年高考生物试卷（浙江）（11月）（解析卷）.docx",
+      "year": 2017,
+      "month": 11,
+      "questions": 33,
+      "types": {
+        "single": 28,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2018-04",
+      "filename": "2018年高考生物试卷（浙江）（4月）（解析卷）.docx",
+      "year": 2018,
+      "month": 4,
+      "questions": 33,
+      "types": {
+        "single": 28,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2018-11",
+      "filename": "2018年高考生物试卷（浙江）（11月）（解析卷）.doc",
+      "year": 2018,
+      "month": 11,
+      "questions": 33,
+      "types": {
+        "single": 28,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2019-04",
+      "filename": "2019年高考生物试卷（浙江）（4月）（解析卷）.docx",
+      "year": 2019,
+      "month": 4,
+      "questions": 33,
+      "types": {
+        "single": 28,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2020-01",
+      "filename": "2020年高考生物试卷（浙江）（1月）（解析卷）.doc",
+      "year": 2020,
+      "month": 1,
+      "questions": 30,
+      "types": {
+        "single": 25,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2020-07",
+      "filename": "2020年高考生物试卷（浙江）（7月）（解析卷）.doc",
+      "year": 2020,
+      "month": 7,
+      "questions": 30,
+      "types": {
+        "single": 25,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2021-01",
+      "filename": "2021年高考生物试卷（浙江）（1月）（解析卷）.doc",
+      "year": 2021,
+      "month": 1,
+      "questions": 30,
+      "types": {
+        "single": 25,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2022-01",
+      "filename": "2022年高考生物试卷（浙江）（1月）（解析卷）.doc",
+      "year": 2022,
+      "month": 1,
+      "questions": 30,
+      "types": {
+        "single": 25,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2022-06",
+      "filename": "2022年高考生物试卷（浙江）（6月）（解析卷）.docx",
+      "year": 2022,
+      "month": 6,
+      "questions": 30,
+      "types": {
+        "single": 25,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2023-01",
+      "filename": "2023年高考生物试卷（浙江）（1月）（解析卷）.docx",
+      "year": 2023,
+      "month": 1,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2023-06",
+      "filename": "2023年高考生物试卷（浙江）（6月）（解析卷）.docx",
+      "year": 2023,
+      "month": 6,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2024-01",
+      "filename": "2024年高考生物试卷（浙江）（1月）（解析卷）.docx",
+      "year": 2024,
+      "month": 1,
+      "questions": 24,
+      "types": {
+        "single": 19,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2024-06",
+      "filename": "2024年高考生物试卷（浙江）（6月）（解析卷）.docx",
+      "year": 2024,
+      "month": 6,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2025-01",
+      "filename": "2025年高考生物试卷（浙江）（1月）（解析卷）.docx",
+      "year": 2025,
+      "month": 1,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2025-06",
+      "filename": "2025年高考生物试卷（浙江）（6月）（解析卷）.docx",
+      "year": 2025,
+      "month": 6,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2026-01",
+      "filename": "2026年1月浙江生物高考真题（解析版）.docx",
+      "year": 2026,
+      "month": 1,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    },
+    {
+      "key": "zj-2026-06",
+      "filename": "2026年6月高考浙江卷生物高考真题（参考版）（解析版）.docx",
+      "year": 2026,
+      "month": 6,
+      "questions": 25,
+      "types": {
+        "single": 20,
+        "subjective": 5
+      }
+    }
+  ],
+  "images": 298,
+  "originalBankSHA256": "385f734b6050baa26e05e14b64997aeee1cfa8a6b54dcd6a5e9f7855b688d9d9",
+  "notes": [
+    {
+      "id": "zj-2017-04-q13",
+      "note": "已勘误：原Word题干误写“错误的是”。经二一教育所发布的同题真题及解析核实，应为“正确的是”，答案D；保留原Word的选项与解析。",
+      "url": "https://zy.21cnjy.com/20403523"
+    },
+    {
+      "id": "zj-2017-04-q20",
+      "note": "已勘误：原Word的D项“该实验为证明”应为“该实验未证明”。经二一教育所发布的同题真题及公开解析核实，题干问正确项，答案仍为D；保留原Word的其余内容和解析。",
+      "url": "https://zy.21cnjy.com/25606576"
+    },
+    {
+      "id": "zj-2017-11-q05",
+      "note": "已勘误：原Word将B着色为答案，但同题公开解析明确选C，且与本卷原文解析一致，正确项为“高龄生育会提高遗传病的发病风险”。此处答案改为C。",
+      "url": "https://zy.21cnjy.com/20406612"
+    },
+    {
+      "id": "zj-2018-04-q01",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q02",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q03",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q04",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q05",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q06",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q07",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q08",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q09",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q10",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q11",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q12",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q13",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q14",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q15",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q16",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q17",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q18",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q19",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q20",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q21",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q22",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q23",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q24",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q25",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q26",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q27",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q28",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q29",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q30",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q31",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q32",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2018-04-q33",
+      "note": "所提供Word仅含答案解析；题干与选项补自浙江省教育考试院原卷（经新浪教育转载）。原卷图片保留题干、图表及全部子问，答案解析沿用所提供Word。",
+      "url": "https://edu.sina.cn/gaokao/qsbk/2018-04-12/detail-ifyzeyqc0276443.d.html?vt=4"
+    },
+    {
+      "id": "zj-2019-04-q25",
+      "note": "已核实：新浪教育转载的原卷题干问“下列推测错误的是”，原卷参考答案为D，与所提供Word一致。三次复制后被标记DNA单链占7/8，D项的3/4为错误推测；题干、选项和答案沿用原Word。",
+      "url": "https://edu.sina.com.cn/gaokao/2019-04-13/doc-ihvhiqax2050671-p5.shtml"
+    }
+  ]
+}
